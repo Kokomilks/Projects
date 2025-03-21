@@ -1,5 +1,3 @@
-"""
-
 import sys, re, os
 
 if os.name == 'nt':
@@ -40,8 +38,6 @@ quantity = int(quantity)
 amount_due = price * quantity
 
 print(f"\n{quantity} {view} view condominium unit{' is' if quantity == 1 else 's are'} priced at ${amount_due:,.2f}.")
-
-"""
 
 import sys, os
 
