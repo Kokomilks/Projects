@@ -7,7 +7,7 @@ _ = os.system('cls' if os.name == 'nt' else 'clear')
 # Shortened code using dictionaries
 
 # Mappings for wood types and table sizes
-wood_prices = {'p': 100, 'o': 225, 'm': 310}
+wood_prices: dict[str, int] = {'p': 100, 'o': 225, 'm': 310}
 wood_names = {'p': 'pine', 'o': 'oak', 'm': 'mahogany'}
 size_prices = {'s': 0, 'm': 15, 'l': 25}
 size_names = {'s': 'small', 'm': 'medium', 'l': 'large'}
