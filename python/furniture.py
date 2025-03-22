@@ -1,7 +1,15 @@
 # Input the wood type, table size, and quantity
 wood_type = str(input("Enter type of wood [P, O, M]: "))
 table_size = str(input("Enter size of table [S, M, L]: "))
-table_quantity = int(input("Enter number of tables: "))
+table_quantity = input("Enter number of tables: ")
+try:
+    table_quantity = int(table_quantity)
+    if table_quantity <= 0:
+        print("\nQuantity must be a positive number")
+        sys.exit(0)
+except ValueError:
+    print("\nPlease enter a valid number")
+    sys.exit(0)
 
 cost = None
 wood = ""
@@ -64,9 +72,15 @@ if wood_type not in ['s', 'm', 'l']:
     print("\nInvalid table size")
     sys.exit(0)
 
-table_quantity = int(input("Enter number of tables: "))
-if re.match("^[+]?([1-9]/d*|0)$", table_quantity) is None:
-    sys.exit("\nInvalid quantity")
+table_quantity = input("Enter number of tables: ")
+try:
+    table_quantity = int(table_quantity)
+    if table_quantity <= 0:
+        print("\nQuantity must be a positive number")
+        sys.exit(0)
+except ValueError:
+    print("\nPlease enter a valid number")
+    sys.exit(0)
 
 # Check for valid wood type and size
 if wood_type not in wood_prices or table_size not in size_prices:
