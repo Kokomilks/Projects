@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Kokomilk\\Github\\Projects\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kokomilk\\Github\\Projects\\python\\condominium.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:python\\condominium.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kokomilk\\Github\\Projects\\python\\list.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:python\\list.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kokomilk\\Github\\Projects\\python\\furniture.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:python\\furniture.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "list.py",
-              "DocumentMoniker": "C:\\Users\\Kokomilk\\Github\\Projects\\python\\list.py",
-              "RelativeDocumentMoniker": "python\\list.py",
-              "ToolTip": "C:\\Users\\Kokomilk\\Github\\Projects\\python\\list.py",
-              "RelativeToolTip": "python\\list.py",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAH4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-21T17:23:20.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "furniture.py",
-              "DocumentMoniker": "C:\\Users\\Kokomilk\\Github\\Projects\\python\\furniture.py",
-              "RelativeDocumentMoniker": "python\\furniture.py",
-              "ToolTip": "C:\\Users\\Kokomilk\\Github\\Projects\\python\\furniture.py",
-              "RelativeToolTip": "python\\furniture.py",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-21T17:23:06.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "condominium.py",
-              "DocumentMoniker": "C:\\Users\\Kokomilk\\Github\\Projects\\python\\condominium.py",
-              "RelativeDocumentMoniker": "python\\condominium.py",
-              "ToolTip": "C:\\Users\\Kokomilk\\Github\\Projects\\python\\condominium.py",
-              "RelativeToolTip": "python\\condominium.py",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-21T17:00:10.079Z",
-              "EditorCaption": ""
             }
           ]
         }
