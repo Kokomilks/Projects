@@ -1,4 +1,3 @@
-
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
@@ -7,7 +6,7 @@ else:
     print("Odd")
 
 
-string = input("Enter a word: ") [::-1]
+string = str(input("Enter a word: "))[::-1]
 print(string)
 
 
@@ -24,7 +23,7 @@ if c > largest:
 print(largest)
 
 
-number = int(input("Enter a number: "))
+number: int = int(input("Enter a number: "))
 
 if number <= 1:
     print("Not prime")
@@ -71,7 +70,7 @@ else:
     print("Odd")
 
 
-string = input("Enter a word: ") [::-1]
+string = str(input("Enter a word: "))[::-1]
 print(string)
 
 
@@ -88,7 +87,7 @@ if c > largest:
 print(largest)
 
 
-number = int(input("Enter a number: "))
+number: int = int(input("Enter a number: "))
 
 if number <= 1:
     print("Not prime")
