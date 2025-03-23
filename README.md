@@ -1,1 +1,1 @@
-# **Small Programs**
+# **SMALL PROGRAMS**
