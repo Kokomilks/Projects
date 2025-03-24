@@ -15,12 +15,12 @@ size_names = {'s': 'small', 'm': 'medium', 'l': 'large'}
 # Input the wood type, table size, and quantity
 wood_type = input("Enter type of wood [P, O, M]: ").lower()
 if wood_type not in ['p', 'o', 'm']:
-    print("\nInvalid wood type")
+    print("\nInvalid wood type.")
     sys.exit(0)
 
 table_size = input("Enter size of table [S, M, L]: ").lower()
 if table_size not in ['s', 'm', 'l']:
-    print("\nInvalid table size")
+    print("\nInvalid table size.")
     sys.exit(0)
 
 table_quantity = input("Enter number of tables: ")
@@ -46,4 +46,4 @@ size = size_names[table_size]
 total = cost * table_quantity
 
 # Display the output
-print(f"{table_quantity} {size} {wood} tables cost ${total:,.2f}")
+print(f"{table_quantity} {size} {wood} tables cost ${total:,.2f}.")
