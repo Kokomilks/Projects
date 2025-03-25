@@ -1,6 +1,6 @@
 import random, os
-
 _ = os.system('cls' if os.name == 'nt' else 'clear')
+
 # deck of cards - 52 cards
 # 4 suits - hearts diamonds cloves spades
 # 13 faces - aces (1) 2 3 4 5 6 7 8 9 10 jack (11) queen (12) king (13)
