@@ -10,8 +10,8 @@ else:
     remaining_loaves = total_loaves % 12
 
     if dozens > 0 and remaining_loaves > 0:
-        print(f"{dozens} baker's dozen{'s' if dozens > 1 else ''} and {remaining_loaves} loaf{'ves' if remaining_loaves > 1 else ''} of bread")
+        print(f"{dozens} baker's dozen{'s' if dozens > 1 else ''} and {remaining_loaves} loa{'ves' if remaining_loaves > 1 else 'f'} of bread")
     elif dozens > 0:
         print(f"{dozens} baker's dozen{'s' if dozens > 1 else ''}")
     else:
-        print(f"{remaining_loaves} loaf{'ves' if remaining_loaves > 1 else ''} of bread")
+        print(f"{remaining_loaves} loa{'ves' if remaining_loaves > 1 else 'f'} of bread")
