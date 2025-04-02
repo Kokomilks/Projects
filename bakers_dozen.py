@@ -3,7 +3,7 @@ quantity_trays = int(input("Enter number of trays: "))
 if quantity_trays < 0:
     print("Invalid input!")
 elif quantity_trays == 0:
-    print("No bread")
+    print("No bread baked")
 else:
     total_bread = quantity_trays * 3
     
