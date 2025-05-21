@@ -11,4 +11,6 @@ while power < len(digits):
     power += 1
 
 if disarium == int(number):
-    print(f"\n")
+    print(f"\n{number} is a disarium number")
+else:
+    print(f"\n{number} is not a disarium number")
