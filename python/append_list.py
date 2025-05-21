@@ -1,4 +1,4 @@
-# use for loop
+# use of for loop
 count = int(input("Enter number of inputs: "))
 
 print("Enter values")
