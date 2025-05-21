@@ -15,7 +15,6 @@ for number in numbers:
     if number % 2 == 0:
         print(number, end=' ')
 
-
 print("\nOdd numbers: ", end='')
 for number in numbers:
     if number % 2 != 0:
@@ -39,7 +38,6 @@ while index < count:
     if numbers[index] % 2 == 0:
         print(numbers[index], end=' ')
     index += 1
-
 
 print("\nOdd numbers: ", end='')
 index = 0
