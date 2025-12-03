@@ -2,11 +2,6 @@ package java_program;
 import java.util.Scanner;
 
 public class RussianPeasantAlgorithm {
-    public static void clear() {
-    System.out.print("\033[H\033[2J");
-    System.out.flush();
-    }
-
     static Scanner scanner = new Scanner(System.in);
     public static int algorithm() {
         System.out.print("Enter a multiplicand: ");
@@ -25,7 +20,7 @@ public class RussianPeasantAlgorithm {
         return finalMultiplier;
     }
     public static void main(String[] args) {
-        clear();
+        clearTerminal.clear();
         System.out.println(algorithm());
     }
 }
