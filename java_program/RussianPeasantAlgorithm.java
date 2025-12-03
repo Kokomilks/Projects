@@ -6,6 +6,7 @@ public class RussianPeasantAlgorithm {
     System.out.print("\033[H\033[2J");
     System.out.flush();
     }
+    
     static Scanner scanner = new Scanner(System.in);
     public static int algorithm() {
         System.out.print("Enter a multiplicand: ");
