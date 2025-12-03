@@ -1,6 +1,4 @@
-package java;
-
-public class test_program {
+public class TestProgram {
     public static void main(String[] args) {
         System.out.println("Test String");
     }
