@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RussianPeasantAlgorithm",
+            "request": "launch",
+            "mainClass": "java_program.RussianPeasantAlgorithm",
+            "projectName": "Projects_19982019"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
