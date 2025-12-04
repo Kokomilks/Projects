@@ -12,4 +12,6 @@ class RussianPeasant:
         return final_multiplier
 
 RPA = RussianPeasant()
-print(f"The product is {RPA.algorithm(multiplicand = int(input("Enter a multiplicand: ")),multiplier = int(input("Enter a multiplier: ")))}")
+print(f"The product is {RPA.algorithm(
+    multiplicand = int(input("Enter a multiplicand: ")),
+    multiplier = int(input("Enter a multiplier: ")))}")

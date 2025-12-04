@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class RussianPeasantAlgorithm {
     static Scanner scanner = new Scanner(System.in);
     public static int algorithm() {
+        
         System.out.print("Enter a multiplicand: ");
         int multiplicand = scanner.nextInt();
         System.out.print("Enter a multiplier: ");
