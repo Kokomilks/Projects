@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RussianPeasantAlgorithm",
+            "request": "launch",
+            "mainClass": "java_program.RussianPeasantAlgorithm",
+            "projectName": "Projects_8004ccdc"
+        },
+        {
+            "type": "java",
             "name": "areaRectangle",
             "request": "launch",
             "mainClass": "java_program.areaRectangle",
