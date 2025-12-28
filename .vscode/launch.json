@@ -8,6 +8,48 @@
             "type": "java",
             "name": "RussianPeasantAlgorithm",
             "request": "launch",
+            "mainClass": "RussianPeasantAlgorithm",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "RussianPeasantAlgorithm",
+            "request": "launch",
+            "mainClass": "programs.RussianPeasantAlgorithm",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "RussianPeasantAlgorithm",
+            "request": "launch",
+            "mainClass": "RussianPeasantAlgorithm",
+            "projectName": "Projects_8004ccdc"
+        },
+        {
+            "type": "java",
+            "name": "areaRectangle",
+            "request": "launch",
+            "mainClass": "areaRectangle",
+            "projectName": "Projects_8004ccdc"
+        },
+        {
+            "type": "java",
+            "name": "RussianPeasantAlgorithm",
+            "request": "launch",
+            "mainClass": "java.RussianPeasantAlgorithm",
+            "projectName": "Projects_8004ccdc"
+        },
+        {
+            "type": "java",
+            "name": "areaRectangle",
+            "request": "launch",
+            "mainClass": "java.areaRectangle",
+            "projectName": "Projects_8004ccdc"
+        },
+        {
+            "type": "java",
+            "name": "RussianPeasantAlgorithm",
+            "request": "launch",
             "mainClass": "java_program.RussianPeasantAlgorithm",
             "projectName": "Projects_8004ccdc"
         },

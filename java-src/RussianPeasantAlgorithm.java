@@ -1,4 +1,3 @@
-package java_program;
 import java.util.Scanner;
 
 public class RussianPeasantAlgorithm {
