@@ -21,7 +21,7 @@ public class RussianPeasantAlgorithm {
     }
     public static void main(String[] args) {
         clearTerminal.clear();
-        System.out.println("---Russian Peasan Algorithm---");
+        System.out.println("---Russian Peasant Algorithm---");
         System.out.println("The product is " + algorithm());
     }
 }
