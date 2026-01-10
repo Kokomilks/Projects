@@ -19,6 +19,7 @@ print("\nOdd numbers: ", end='')
 for number in numbers:
     if number % 2 != 0:
         print(number, end=' ')
+print("\n")
         
 # use of while loop
 count = int(input("Enter number of inputs: "))
@@ -45,3 +46,4 @@ while index < count:
     if numbers[index] % 2 != 0:
         print(numbers[index], end=' ')
     index += 1
+print("\n")
