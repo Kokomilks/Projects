@@ -10,5 +10,3 @@ while counter <= number:
     sum += counter
     counter += 1
 print(f"\nSum is {sum}.")
-
-print()
