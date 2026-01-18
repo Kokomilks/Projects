@@ -12,7 +12,7 @@ public class CandlePacking {
                 System.out.println("Invalid input, diameter input must not be letters or special symbols.");
                 System.exit(0);
             }
-            if (candleDiameter < 1) {
+            if (candleDiameter != 1 || candleDiameter != 2) {
                 System.out.println("Input error, diameter input must be 1 or 2 only.");
                 System.exit(0);
             }
@@ -26,6 +26,18 @@ public class CandlePacking {
             }
             if (oneDimension < 1) {
                 System.out.println("Input error, dimension one input must not be less than 1.");
+                System.exit(0);
+            }
+        int twoDimension = 0;
+            try {
+                System.out.print("Enter dimension two value: ");
+                twoDimension = scanner.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input, dimension two input must not be letters or special symbols.");
+                System.exit(0);
+            }
+            if (twoDimension < 1) {
+                System.out.println("Input error, dimension two input must not be less than 1.");
                 System.exit(0);
             }
     }
