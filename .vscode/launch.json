@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CandlePacking",
+            "request": "launch",
+            "mainClass": "CandlePacking",
+            "projectName": "Projects_3fdf7c0f"
+        },
+        {
+            "type": "java",
             "name": "Precedence",
             "request": "launch",
             "mainClass": "Precedence",
