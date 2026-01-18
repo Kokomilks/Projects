@@ -4,6 +4,7 @@ import java.util.InputMismatchException;
 public class CandlePacking {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
+        clearTerminal.clear();
         int candleDiameter = 0;
             try {
                 System.out.print("Enter diameter of candle: ");
