@@ -12,7 +12,7 @@ public class CandlePacking {
                 System.out.println("Invalid input, diameter input must not be letters or special symbols.");
                 System.exit(0);
             }
-            if (candleDiameter != 1 || candleDiameter != 2) {
+            if (candleDiameter != 1 && candleDiameter != 2) {
                 System.out.println("Input error, diameter input must be 1 or 2 only.");
                 System.exit(0);
             }
@@ -40,5 +40,9 @@ public class CandlePacking {
                 System.out.println("Input error, dimension two input must not be less than 1.");
                 System.exit(0);
             }
+        int dimensionOneProduct = Math.floorDiv(oneDimension, candleDiameter);
+        int dimensionTwoProduct = Math.floorDiv(twoDimension, candleDiameter);
+        int dimensionProductTotal = dimensionOneProduct * dimensionTwoProduct;
+        System.out.println("Maximum number of candles to be packed is " + dimensionProductTotal + ".");
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "loop",
+            "request": "launch",
+            "mainClass": "loop",
+            "projectName": "Projects_3fdf7c0f"
+        },
+        {
+            "type": "java",
             "name": "CandlePacking",
             "request": "launch",
             "mainClass": "CandlePacking",
