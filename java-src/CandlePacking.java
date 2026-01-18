@@ -10,10 +10,11 @@ public class CandlePacking {
                 candleDiameter = scanner.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input, diameter input must not be letters or special symbols.");
+                System.exit(0);
             }
             if (candleDiameter < 1) {
                 System.out.println("Input error, diameter input must be 1 or 2 only.");
-                System.exit(0); 
+                System.exit(0);
             }
         int oneDimension = 0;
             try {
@@ -21,6 +22,7 @@ public class CandlePacking {
                 oneDimension = scanner.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input, dimension one input must not be letters or special symbols.");
+                System.exit(0);
             }
             if (oneDimension < 1) {
                 System.out.println("Input error, dimension one input must not be less than 1.");
