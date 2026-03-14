@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SmallestLargestArray",
+            "request": "launch",
+            "mainClass": "SmallestLargestArray",
+            "projectName": "Projects_3fdf7c0f"
+        },
+        {
+            "type": "java",
             "name": "loop2",
             "request": "launch",
             "mainClass": "loop2",
