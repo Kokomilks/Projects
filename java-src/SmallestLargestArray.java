@@ -22,7 +22,7 @@ public class SmallestLargestArray {
                     continue;
                 }
 
-                int[] arr = new int[size];
+                int[] array = new int[size];
 
                 System.out.println("Enter the " + size + " elements below");
 
@@ -30,7 +30,7 @@ public class SmallestLargestArray {
 
                     try {
                         System.out.print("Enter element " + (i + 1) + ": ");
-                        arr[i] = scanner.nextInt();
+                        array[i] = scanner.nextInt();
                     }
                     catch (InputMismatchException e) {
                         System.out.println("Invalid input, element " + (i + 1) + " input must not be/have letters or special symbols.\n");
@@ -39,17 +39,17 @@ public class SmallestLargestArray {
                     }
                 }
 
-                int smallest = arr[0];
-                int largest = arr[0];
+                int smallest = array[0];
+                int largest = array[0];
 
                 for (int i = 1; i < size; i++) {
 
-                    if (arr[i] < smallest) {
-                        smallest = arr[i];
+                    if (array[i] < smallest) {
+                        smallest = array[i];
                     }
 
-                    if (arr[i] > largest) {
-                        largest = arr[i];
+                    if (array[i] > largest) {
+                        largest = array[i];
                     }
                 }
 
