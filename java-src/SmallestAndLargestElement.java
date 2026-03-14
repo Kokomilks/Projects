@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 import java.text.NumberFormat;
 
-public class SmallestLargestArray {
+public class SmallestAndLargestElement {
 
     public static void main(String[] args) {
 
