@@ -1,3 +1,8 @@
+//LABAY, KYLE ZANDER S.
+//SILVA, JAN ALDRIN A.
+//CCP 1102 - ITCB
+//SMALLEST AND LARGEST ELEMENT USING ARRAY
+
 import java.util.Scanner;
 import java.util.InputMismatchException;
 import java.text.NumberFormat;
@@ -39,24 +44,24 @@ public class SmallestAndLargestElement {
                     }
                 }
 
-                int smallest = array[0];
-                int largest = array[0];
+                int smallestElement = array[0];
+                int largestElement = array[0];
 
                 for (int i = 1; i < size; i++) {
 
-                    if (array[i] < smallest) {
-                        smallest = array[i];
+                    if (array[i] < smallestElement) {
+                        smallestElement = array[i];
                     }
 
-                    if (array[i] > largest) {
-                        largest = array[i];
+                    if (array[i] > largestElement) {
+                        largestElement = array[i];
                     }
                 }
 
                 NumberFormat nf = NumberFormat.getInstance();
 
-                System.out.println("Smallest element in the array set is " + nf.format(smallest) + ".");
-                System.out.println("Largest element in the array set is " + nf.format(largest) + ".");
+                System.out.println("Smallest element in the array set is " + nf.format(smallestElement) + ".");
+                System.out.println("Largest element in the array set is " + nf.format(largestElement) + ".");
                 break;
 
             }
