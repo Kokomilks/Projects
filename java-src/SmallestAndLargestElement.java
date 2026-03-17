@@ -14,14 +14,12 @@ public class SmallestAndLargestElement {
             try {
                 System.out.println("Smallest and Largest Element in an Array");
                 System.out.print("Enter size of array, [3 - 10] only: ");
-
                 int size = scanner.nextInt();
                 if (size < 3 || size > 10) {
                     System.out.println("Input error, input size of the array must not be less than 3 or greater than 10.\n");
                     scanner.nextLine();
                     continue;
                 }
-
                 int[] array = new int[size];
                 System.out.println("Enter the " + size + " elements below");
                 for (int i = 0; i < size; i++) {
@@ -35,7 +33,6 @@ public class SmallestAndLargestElement {
                         throw new Exception(); 
                     }
                 }
-
                 int smallestElement = array[0];
                 int largestElement = array[0];
                 for (int i = 1; i < size; i++) {
@@ -46,7 +43,6 @@ public class SmallestAndLargestElement {
                         largestElement = array[i];
                     }
                 }
-                
                 NumberFormat nf = NumberFormat.getInstance();
                 System.out.println("Smallest element in the array set is " + nf.format(smallestElement) + ".");
                 System.out.println("Largest element in the array set is " + nf.format(largestElement) + ".");
