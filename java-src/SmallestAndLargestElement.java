@@ -9,6 +9,7 @@ import java.text.NumberFormat;
 
 public class SmallestAndLargestElement {
     public static void main(String[] args) {
+        clearTerminal.clear();
         Scanner scanner = new Scanner(System.in);
         while (true) {
             try {
