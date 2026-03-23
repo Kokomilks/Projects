@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Addition",
+            "request": "launch",
+            "mainClass": "Addition",
+            "projectName": "Projects_3fdf7c0f"
+        },
+        {
+            "type": "java",
             "name": "SmallestAndLargestElement",
             "request": "launch",
             "mainClass": "SmallestAndLargestElement",
